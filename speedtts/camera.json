@@ -20993,8 +20993,8 @@
         "Address": "南青路607號(台31線3K+150)",
         "DeptNm": "桃園市政府警察局",
         "BranchNm": "桃市警局交通大隊",
-        "Longitude": "121.248070",
-        "Latitude": "25.044855",
+        "Longitude": "121.25152",
+        "Latitude": "25.047396",
         "direct": " 往南",
         "limit": "60"
       },
@@ -21967,72 +21967,6 @@
         "limit": "40"
       },
       {
-        "CityName": "國道一號",
-        "RegionName": "",
-        "Address": "國道一號南向306.1公里",
-        "DeptNm": "國道公路警察局",
-        "BranchNm": "國道公路警四隊",
-        "Longitude": "120.2315",
-        "Latitude": "23.16412",
-        "direct": "往南",
-        "limit": "110"
-      },
-      {
-        "CityName": "國道一號",
-        "RegionName": "",
-        "Address": "國道一號北向309.1公里",
-        "DeptNm": "國道公路警察局",
-        "BranchNm": "國道公路警四隊",
-        "Longitude": "120.23468",
-        "Latitude": "23.137453",
-        "direct": "往北",
-        "limit": "110"
-      },
-      {
-        "CityName": "國道一號",
-        "RegionName": "",
-        "Address": "國道一號南向301.6公里",
-        "DeptNm": "國道公路警察局",
-        "BranchNm": "國道公路警四隊",
-        "Longitude": "120.23653",
-        "Latitude": "23.20419",
-        "direct": "往南",
-        "limit": "110"
-      },
-      {
-        "CityName": "國道一號",
-        "RegionName": "",
-        "Address": "國道一號北向301.5公里",
-        "DeptNm": "國道公路警察局",
-        "BranchNm": "國道公路警四隊",
-        "Longitude": "120.23672",
-        "Latitude": "23.20487",
-        "direct": "往北",
-        "limit": "110"
-      },
-      {
-        "CityName": "國道一號",
-        "RegionName": "",
-        "Address": "國道一號南向321.8公里",
-        "DeptNm": "國道公路警察局",
-        "BranchNm": "國道公路警四隊",
-        "Longitude": "120.2493",
-        "Latitude": "23.026245",
-        "direct": "往南",
-        "limit": "110"
-      },
-      {
-        "CityName": "國道一號",
-        "RegionName": "",
-        "Address": "國道1號南向51.1公里",
-        "DeptNm": "國道公路警察局",
-        "BranchNm": "國道公路警一隊",
-        "Longitude": "121.28129",
-        "Latitude": "25.02574",
-        "direct": "往南",
-        "limit": "100"
-      },
-      {
         "CityName": "國道2號",
         "RegionName": "",
         "Address": "國道2號東向2.4公里",
@@ -22086,6 +22020,61 @@
         "Latitude": "25.028276",
         "direct": "西向",
         "limit": "100"
+      },
+      {
+        "CityName": "國道一號",
+        "RegionName": "",
+        "Address": "國道一號南向306.1公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警四隊",
+        "Longitude": "120.2315",
+        "Latitude": "23.16412",
+        "direct": "往南",
+        "limit": "110"
+      },
+      {
+        "CityName": "國道一號",
+        "RegionName": "",
+        "Address": "國道一號北向309.1公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警四隊",
+        "Longitude": "120.23468",
+        "Latitude": "23.137453",
+        "direct": "往北",
+        "limit": "110"
+      },
+      {
+        "CityName": "國道一號",
+        "RegionName": "",
+        "Address": "國道一號南向301.6公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警四隊",
+        "Longitude": "120.23653",
+        "Latitude": "23.20419",
+        "direct": "往南",
+        "limit": "110"
+      },
+      {
+        "CityName": "國道一號",
+        "RegionName": "",
+        "Address": "國道一號北向301.5公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警四隊",
+        "Longitude": "120.23672",
+        "Latitude": "23.20487",
+        "direct": "往北",
+        "limit": "110"
+      },
+      {
+        "CityName": "國道一號",
+        "RegionName": "",
+        "Address": "國道一號南向321.8公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警四隊",
+        "Longitude": "120.2493",
+        "Latitude": "23.026245",
+        "direct": "往南",
+        "limit": "110"
       }
     ]
   }
