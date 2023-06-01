@@ -20993,8 +20993,8 @@
         "Address": "南青路607號(台31線3K+150)",
         "DeptNm": "桃園市政府警察局",
         "BranchNm": "桃市警局交通大隊",
-        "Longitude": "121.25152",
-        "Latitude": "25.047396",
+        "Longitude": "121.248070",
+        "Latitude": "25.044855",
         "direct": " 往南",
         "limit": "60"
       },
@@ -22040,7 +22040,51 @@
         "BranchNm": "國道公路警一隊",
         "Longitude": "121.218629",
         "Latitude": "25.046332",
-        "direct": "往東",
+        "direct": "東向",
+        "limit": "100"
+      },
+      {
+        "CityName": "國道2號",
+        "RegionName": "",
+        "Address": "國道2號東向11.8公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警一隊",
+        "Longitude": "121.282975",
+        "Latitude": "24.99567",
+        "direct": "東向",
+        "limit": "100"
+      },
+      {
+        "CityName": "國道2號",
+        "RegionName": "",
+        "Address": "國道2號東向18.5公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警一隊",
+        "Longitude": "121.324863",
+        "Latitude": "24.959269",
+        "direct": "東向",
+        "limit": "100"
+      },
+      {
+        "CityName": "國道2號",
+        "RegionName": "",
+        "Address": "國道2號西向2公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警一隊",
+        "Longitude": "121.217197",
+        "Latitude": "25.049833",
+        "direct": "西向",
+        "limit": "100"
+      },
+      {
+        "CityName": "國道2號",
+        "RegionName": "",
+        "Address": "國道2號西向6.4公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警一隊",
+        "Longitude": "121.251802",
+        "Latitude": "25.028276",
+        "direct": "西向",
         "limit": "100"
       }
     ]
