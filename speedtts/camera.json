@@ -22026,11 +22026,11 @@
         "RegionName": "",
         "Address": "國道1號南向51.1公里",
         "DeptNm": "國道公路警察局",
-        "BranchNm": "國道公路警四隊",
-        "Longitude": "121.16468",
-        "Latitude": "25.01288",
+        "BranchNm": "國道公路警一隊",
+        "Longitude": "121.28129",
+        "Latitude": "25.02574",
         "direct": "往南",
-        "limit": "70"
+        "limit": "100"
       },
       {
         "CityName": "國道2號",
@@ -22041,7 +22041,7 @@
         "Longitude": "121.218629",
         "Latitude": "25.046332",
         "direct": "往東",
-        "limit": "70"
+        "limit": "100"
       }
     ]
   }
