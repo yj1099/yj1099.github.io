@@ -217,6 +217,12 @@ function initMap() {
 
     // Call ~ 建立交通速限標誌的 Styles
     makeSpeedLimitSign();
+    
+    // 定期發送心跳訊息 -- 2023.06.03 --
+    setInterval(() => {
+      fetch('/heartbeat');
+     }, 30000);
+    }
 }
 
 
