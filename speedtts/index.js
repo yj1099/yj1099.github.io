@@ -5,7 +5,7 @@ Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
 */
 
 const zoomSize = 14;
-const fileCamera = "camera.json"
+const fileCamera = "mycamera.json"
 const iColors = ['#FDD', '#FCC', '#FBB', '#FAA', '#F88', '#F66', '#F33', '#F00', '#E00', '#D00', '#C00', '#B00', '#A00', '#900'];
 
 const optWatch = {
