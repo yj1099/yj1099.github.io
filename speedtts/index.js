@@ -1,10 +1,11 @@
 /*
 speedTTS/index.js
-Version: 2.2.3  @2023/05/29
+Version: 2.2.6  @2023/06/01
 Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
 */
 
 const zoomSize = 14;
+const ttsRadius = 500;
 const fileCamera = "mycamera.json"
 const iColors = ['#FDD', '#FCC', '#FBB', '#FAA', '#F88', '#F66', '#F33', '#F00', '#E00', '#D00', '#C00', '#B00', '#A00', '#900'];
 
@@ -31,9 +32,9 @@ var x = document.getElementById("result");
 var speedStyles = [];
 var toInit = true;
 var rotateView = true;
-var ttsNearest = false;
-var prevCamera = 0;
-var prevDFloor = -1;
+var usingTTS = false;
+var prevCamera = -1;
+var prevDFloor = ttsRadius;
 var map, olCenter;
 var jsonCamera, idWatch;
 var carFeature, carGeometry, car_style, car_bord_style, arrow_style, arrow_shape;
@@ -138,17 +139,21 @@ function findNearestCamera(lon, lat) {
     let r = jsonCamera.result.records[nearestCamera];
     let d = Math.trunc(distanceMarkers(lon, lat, r.Longitude, r.Latitude) * 1000);
     let dFloor = Math.floor(d / 100) * 100;
-    let s1 = `最近的相機： 距離 ${d} 公尺，限速 ${r.limit} 公里， 所在地 [${r.Address} ~ ${r.direct}]\n`;
-    let s2 = `距離 ${dFloor} 公尺，限速 ${r.limit} 公里`;
+    let s1 = `📸 距離 ${d} 公尺，限速 ${r.limit} 公里 【${r.Address} ~ ${r.direct}】\n`;
+    let s2 = `距離 ${dFloor}，限速 ${r.limit}，${r.direct}`;
 
     x.value += s1;
 
-    if (ttsNearest && d < 1000 && dFloor > 0 &&
-        prevCamera == nearestCamera && prevDFloor > dFloor)
-        convertToSpeech(s2);
-
-    prevCamera = nearestCamera;
-    prevDFloor = dFloor;
+    if (nearestCamera == prevCamera) {
+        if (usingTTS && d < ttsRadius)
+            if (dFloor < prevDFloor) {
+                convertToSpeech(s2);
+            }
+            prevDFloor = dFloor;
+    } else {
+        prevCamera = nearestCamera;
+        prevDFloor = ttsRadius;
+    }
 }
 
 
@@ -348,7 +353,7 @@ function toggleRotate() {
 
 // 開啟或關閉 TTS
 function toggleTTS() {
-    ttsNearest = !ttsNearest;
+    usingTTS = !usingTTS;
 }
 
 
