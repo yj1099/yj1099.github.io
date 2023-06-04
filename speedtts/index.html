@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
 speedTTS/index.html
-Version: 2.2.3  @2023/05/29
+Version: 2.2.3  @2023/05/29         AZ V2023.0604.1912
 Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
 -->
 
@@ -21,8 +21,7 @@ Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
     <input type="button" id="toggle" value="Wake Lock is disabled" />
     <script>
       var noSleep = new NoSleep();
-
-      var wakeLockEnabled = true;
+      var wakeLockEnabled = false;
       var toggleEl = document.querySelector("#toggle");
       toggleEl.addEventListener('click', function() {
         if (!wakeLockEnabled) {
