@@ -1,7 +1,7 @@
 {
   "success": true,
   "result": {
-    "resource_id": "A01010000C-000674-011",
+    "resource_id": "自行手動加入版:2023.0604.1125",
     "limit": 2000,
     "total": 2000,
     "fields": [
@@ -121,26 +121,26 @@
         "limit": "100"
       },
       {
-        "CityName": "金門縣",
-        "RegionName": "金城鎮",
-        "Address": "西海路空中大學路段(空中大學附近)",
-        "DeptNm": "金門縣警察局",
-        "BranchNm": "金城分局",
-        "Longitude": "118.31264",
-        "Latitude": "24.422647",
-        "direct": "東西雙向",
-        "limit": "50"
+        "CityName": "國道1號",
+        "RegionName": "",
+        "Address": "國道1號西北51.7公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警一隊",
+        "Longitude": "121.277704",
+        "Latitude": "25.021181",
+        "direct": "北向匯入國道一號",
+        "limit": "60"
       },
       {
-        "CityName": "金門縣",
-        "RegionName": "金城鎮",
-        "Address": "環島南路小西門路段",
-        "DeptNm": "金門縣警察局",
-        "BranchNm": "金城分局",
-        "Longitude": "118.32414",
-        "Latitude": "24.413134",
-        "direct": "東西雙向",
-        "limit": "60"
+        "CityName": "國道1號",
+        "RegionName": "",
+        "Address": "國道1號南向51.2公里",
+        "DeptNm": "國道公路警察局",
+        "BranchNm": "國道公路警一隊",
+        "Longitude": "121.281637",
+        "Latitude": "25.026072",
+        "direct": "南向往中壢",
+        "limit": "100"
       },
       {
         "CityName": "金門縣",
