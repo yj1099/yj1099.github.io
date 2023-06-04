@@ -219,9 +219,9 @@ function initMap() {
     makeSpeedLimitSign();
     
     // 定期發送心跳訊息 -- 2023.06.03 --
-    setInterval(() => {
-      fetch('/heartbeat');
-    }, 30000);
+//     setInterval(() => {
+//       fetch('/heartbeat');
+//     }, 30000);
 }
 
 
