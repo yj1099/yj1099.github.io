@@ -21023,11 +21023,11 @@
       {
         "CityName": "桃園市",
         "RegionName": "桃園市蘆竹區",
-        "Address": "富國路130號前",
+        "Address": "蘆竹區富國路一段130號前",
         "DeptNm": "桃園市政府警察局",
         "BranchNm": "桃市警局交通大隊",
-        "Longitude": "121.266235",
-        "Latitude": "25.045538",
+        "Longitude": "121.276359",
+        "Latitude": "25.028673",
         "direct": "往蘆竹方向",
         "limit": "40"
       },
@@ -21060,7 +21060,7 @@
         "DeptNm": "桃園市政府警察局",
         "BranchNm": "桃市警局交通大隊",
         "Longitude": "121.29424",
-        "Latitude": "25.044203",
+        "Latitude": "25.144203",
         "direct": "往北",
         "limit": "50"
       },
