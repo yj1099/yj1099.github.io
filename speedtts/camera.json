@@ -1,7 +1,7 @@
 {
   "success": true,
   "result": {
-    "resource_id": "自行手動加入版:2023.0604.1125",
+    "resource_id": "自行手動加入版:2023.0606.1636",
     "limit": 2000,
     "total": 2000,
     "fields": [
@@ -20984,7 +20984,7 @@
         "BranchNm": "桃市警局交通大隊",
         "Longitude": "121.236725",
         "Latitude": "25.04252",
-        "direct": "往大園方向",
+        "direct": "大竹往大園方向",
         "limit": "50"
       },
       {
@@ -20995,7 +20995,7 @@
         "BranchNm": "桃市警局交通大隊",
         "Longitude": "121.247964",
         "Latitude": "25.044923",
-        "direct": " 南向往高鐵方向",
+        "direct": " 往高鐵方向",
         "limit": "60"
       },
       {
@@ -21059,7 +21059,7 @@
         "Address": "中正路8號前",
         "DeptNm": "桃園市政府警察局",
         "BranchNm": "桃市警局交通大隊",
-        "Longitude": "121.29424",
+        "Longitude": "123.29424",
         "Latitude": "25.144203",
         "direct": "往北",
         "limit": "50"
@@ -21127,7 +21127,7 @@
         "BranchNm": "桃市警局交通大隊",
         "Longitude": "121.21008",
         "Latitude": "25.059599",
-        "direct": "往國道二號方向",
+        "direct": "大園往國道二號方向",
         "limit": "50"
       },
       {
