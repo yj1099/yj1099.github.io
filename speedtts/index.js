@@ -5,7 +5,7 @@ Wenchin Hsieh @Goomo.Net Studio, wenchin@goomo.net
 */
 
 const zoomSize = 14;
-const ttsRadius = 500;
+const ttsRadius = 400;      // 多少公尺內提醒
 const fileCamera = "camera.json"
 const iColors = ['#FDD', '#FCC', '#FBB', '#FAA', '#F88', '#F66', '#F33', '#F00', '#E00', '#D00', '#C00', '#B00', '#A00', '#900'];
 
@@ -138,7 +138,7 @@ function findNearestCamera(lon, lat) {
 
     let r = jsonCamera.result.records[nearestCamera];
     let d = Math.trunc(distanceMarkers(lon, lat, r.Longitude, r.Latitude) * 1000);
-    let dFloor = Math.floor(d / 100) * 100;
+    let dFloor = Math.floor(d / 200) * 100;         // 相隔200公尺提醒
     let s1 = `📸 距離 ${d} 公尺，限速 ${r.limit} 公里 【${r.Address} ~ ${r.direct}】\n`;
     let s2 = `距離 ${dFloor}，限速 ${r.limit}，${r.direct}`;
 
