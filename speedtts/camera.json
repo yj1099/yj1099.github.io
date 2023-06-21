@@ -73,7 +73,7 @@
         "BranchNm": "國道公路警一隊",
         "Longitude": "121.217197",
         "Latitude": "25.049833",
-        "direct": "西向往機場",
+        "direct": "國2往機場",
         "limit": "100"
       },
       {
@@ -84,7 +84,7 @@
         "BranchNm": "國道公路警一隊",
         "Longitude": "121.251802",
         "Latitude": "25.028276",
-        "direct": "西向往機場",
+        "direct": "國2往機場",
         "limit": "100"
       },
       {
@@ -95,7 +95,7 @@
         "BranchNm": "國道公路警一隊",
         "Longitude": "121.218629",
         "Latitude": "25.046332",
-        "direct": "西向往桃園",
+        "direct": "國2往桃園",
         "limit": "100"
       },
       {
@@ -106,7 +106,7 @@
         "BranchNm": "國道公路警一隊",
         "Longitude": "121.282975",
         "Latitude": "24.99567",
-        "direct": "西向往台北",
+        "direct": "國2往台北",
         "limit": "100"
       },
       {
@@ -117,7 +117,7 @@
         "BranchNm": "國道公路警一隊",
         "Longitude": "121.324863",
         "Latitude": "24.959269",
-        "direct": "西向往台北",
+        "direct": "國2往台北",
         "limit": "100"
       },
       {
